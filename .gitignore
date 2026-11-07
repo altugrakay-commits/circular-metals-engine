@@ -1,0 +1,19 @@
+# C build artifacts
+*.obj
+*.lib
+*.exp
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
