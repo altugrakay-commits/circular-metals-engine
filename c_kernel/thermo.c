@@ -28,7 +28,7 @@ static const double STUB_PARTITION[N_PHASES][N_ELEMENTS] = {
     [PHASE_METAL] = {
         [ELEM_FE] = 1.0, [ELEM_CU] = 1.0, [ELEM_AL] = 1.0, [ELEM_ZN] = 1.0,
         [ELEM_PB] = 1.0, [ELEM_NI] = 1.0, [ELEM_CR] = 1.0, [ELEM_MN] = 1.0,
-        [ELEM_SI] = 1.0, [ELEM_C] = 0.0, [ELEM_O] = 0.0, [ELEM_S] = 0.0,
+        [ELEM_SI] = 0.0, [ELEM_C] = 0.0, [ELEM_O] = 0.0, [ELEM_S] = 0.0,
         [ELEM_P] = 0.0, [ELEM_SN] = 1.0, [ELEM_MG] = 1.0,
     },
     [PHASE_SLAG] = {
