@@ -34,7 +34,7 @@ static const double STUB_PARTITION[N_PHASES][N_ELEMENTS] = {
     [PHASE_SLAG] = {
         [ELEM_FE] = 0.0, [ELEM_CU] = 0.0, [ELEM_AL] = 0.0, [ELEM_ZN] = 0.0,
         [ELEM_PB] = 0.0, [ELEM_NI] = 0.0, [ELEM_CR] = 0.0, [ELEM_MN] = 0.0,
-        [ELEM_SI] = 0.0, [ELEM_C] = 0.0, [ELEM_O] = 1.0, [ELEM_S] = 0.0,
+        [ELEM_SI] = 1.0, [ELEM_C] = 0.0, [ELEM_O] = 1.0, [ELEM_S] = 0.0,
         [ELEM_P] = 1.0, [ELEM_SN] = 0.0, [ELEM_MG] = 0.0,
     },
     [PHASE_GAS] = {

@@ -72,8 +72,8 @@ _load_library()
 def _calculate_equilibrium_python(composition_dict: dict, temperature: float) -> dict:
     # Base partition matrix
     part = {
-        "metal": {"Fe": 1, "Cu": 1, "Al": 1, "Zn": 1, "Pb": 1, "Ni": 1, "Cr": 1, "Mn": 1, "Si": 1, "Sn": 1, "Mg": 1},
-        "slag":  {"O": 1, "P": 1},
+        "metal": {"Fe": 1, "Cu": 1, "Al": 1, "Zn": 1, "Pb": 1, "Ni": 1, "Cr": 1, "Mn": 1, "Sn": 1, "Mg": 1},
+        "slag":  {"O": 1, "P": 1, "Si": 1},
         "gas":   {"C": 1, "S": 1}
     }
     
